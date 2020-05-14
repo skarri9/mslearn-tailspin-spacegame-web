@@ -44,7 +44,6 @@ steps:
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
 
-#Added 2 new tasks to publish the Artifacts
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
   inputs:
